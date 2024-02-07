@@ -1,39 +1,65 @@
-# React Truffle Box
+# Voting dApp
 
-This box comes with everything you need to start using Truffle to write, compile, test, and deploy smart contracts, and interact with them from a React app.
+## Introduction
 
-## Installation
+This decentralized application (dApp) enables secure and transparent voting on the Ethereum blockchain. Built with Truffle and Solidity, the dApp allows users to add candidates, register voters, and cast votes in a tamper-proof system, ensuring the integrity of the voting process.
 
-First ensure you are in an empty directory.
+## Features
 
-Run the `unbox` command using 1 of 2 ways.
+- Add candidates for election.
+- Register eligible voters.
+- Cast votes securely.
+- View real-time election results.
+- Admin panel for election management.
 
-```sh
-# Install Truffle globally and run `truffle unbox`
-$ npm install -g truffle
-$ truffle unbox react
-```
+## Technologies Used
 
-```sh
-# Alternatively, run `truffle unbox` via npx
-$ npx truffle unbox react
-```
+- **Ethereum Blockchain**: For decentralized and immutable ledger functionality.
+- **Solidity**: Smart contract programming language.
+- **Truffle Suite**: Development environment, testing framework, and asset pipeline.
+- **React**: Frontend library for building the user interface(under construction).
+- **Web3.js**: Ethereum JavaScript API for interacting with Ethereum nodes.
 
-Start the react dev server.
+## Prerequisites
 
-```sh
-$ cd client
-$ npm start
-```
+- Node.js and npm
+- Truffle Suite
+- Ganache (for local blockchain development)
+- Metamask (or any other Ethereum wallet for interacting with the dApp)
 
-From there, follow the instructions on the hosted React app. It will walk you through using Truffle and Ganache to deploy the `SimpleStorage` contract, making calls to it, and sending transactions to change the contract's state.
+## Setup and Installation
 
-## FAQ
+1. Clone the repository:
+   ```sh
+   git clone [repository-url]
+   cd [repository-name]
+   ```
+2. Install Dependencies:
+   ```sh
+   npm install
+   ```
+3. Start Ganache and ensure it's running.
+4. Compile smart contracts:
+   ```sh
+   truffle compile
+   ```
+5. Migrate smart contracts to the blockchain:
+   ```sh
+   truffle migrate
+   ```
+6. Run tests to ensure everything is set up correctly:
+   ```sh
+   truffle test
+   ```
 
-- __How do I use this with Ganache (or any other network)?__
+## Feedback
 
-  The Truffle project is set to deploy to Ganache by default. If you'd like to change this, it's as easy as modifying the Truffle config file! Check out [our documentation on adding network configurations](https://trufflesuite.com/docs/truffle/reference/configuration/#networks). From there, you can run `truffle migrate` pointed to another network, restart the React dev server, and see the change take place.
+## Usage
 
-- __Where can I find more resources?__
+At the moment the front end isn't finished so to interact please copy the contract and go over to https://remix.ethereum.org/ and paste it there to test out.
 
-  This Box is a sweet combo of [Truffle](https://trufflesuite.com) and [Webpack](https://webpack.js.org). Either one would be a great place to start!
+Please let me know what you think of the app or if you have any suggestions:
+
+- **Email**: [maxevans156@gmail.com](mailto:maxevans156@gmail.com)
+- **LinkedIn**: [Max Evans](https://www.linkedin.com/in/max-evans523)
+- **GitHub**: [maxchain89](https://github.com/maxchain89)
