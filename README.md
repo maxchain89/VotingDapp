@@ -56,7 +56,7 @@ This decentralized application (dApp) enables secure and transparent voting on t
 
 ## Usage
 
-At the moment the front end isn't finished so to interact please copy the contract and go over to https://remix.ethereum.org/ and paste it there to test out.
+At the moment the front end isn't finished so to interact please copy the contract and go over to https://remix.ethereum.org/ and paste it there to test out. And also feel free to view the verified contract at https://sepolia.etherscan.io/address/0x455BD4EDa150916Ad1FbD705bE0473dE38721A38#code
 
 Please let me know what you think of the app or if you have any suggestions:
 
